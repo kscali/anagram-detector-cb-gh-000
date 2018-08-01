@@ -12,5 +12,4 @@ class Anagram
        list_word.split("").sort == @name.split("").sort
       end 
     end 
-  end    
 end   
