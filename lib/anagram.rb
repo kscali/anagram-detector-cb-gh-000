@@ -1,11 +1,14 @@
 # Your code goes here!
-class Anagaram 
-  attr_accessor
+class Anagram 
+  attr_accessor :match 
   
   
   def initialize(word)
     @word = word 
   end   
+  
+  def match(array)
+    word.(%w(array)).an
   
   
   
